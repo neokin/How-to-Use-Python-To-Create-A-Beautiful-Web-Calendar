@@ -1,7 +1,7 @@
 import generatePayDayWebpage
 from flask import Flask, render_template, redirect, url_for
 app = Flask(__name__)
-
+app.config['TEMPLATES_AUTO_RELOAD'] = True
 
 @app.errorhandler(404)
 def page_not_found(error=None):
