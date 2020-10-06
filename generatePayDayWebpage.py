@@ -2,6 +2,7 @@
 
 from PayDayCalendar import PayDayCalendar
 from datetime import datetime
+import moondates
 
 """
     
@@ -14,25 +15,14 @@ from datetime import datetime
     
 """
 
-def main():
-    # a list of tuples, month then day
-    pay_days = [
-                    (1,23), # January, 23rd
-                    (2,25),
-                    (3,26),
-                    (4,25),
-                    (5,28),
-                    (6,25),
-                    (7,25),
-                    (8,27),
-                    (9,25),
-                    (10,28),
-                    (11,26),
-                    (12,18)
-                ]
+def generatewebpage():
+    pay_days, nowday = moondates.getpaylist()
+#    nowday = (10, 10)
     current_year = datetime.today().year # get from today, the current year
-    c = PayDayCalendar(pay_days).formatyearpage(current_year, 4)
-    print c
+    locale='ru_RU.utf8'
+    c = PayDayCalendar(pay_days, nowday=nowday, locale=locale).formatyearpage(current_year, 4)
+    print(locale)
+    print(c)
 
 if __name__ == '__main__':
-    main()
+    generatewebpage()

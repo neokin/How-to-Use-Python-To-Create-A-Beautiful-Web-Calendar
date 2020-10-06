@@ -1,12 +1,4 @@
-/** 	Readme
- *		@Project:		CIG Payday Calendar
- *		@Author:		Garth Humphreys
- *		@Description:	Yearly CIG Payday Calendar
- *		@Created:		01/18/2013
- *		@Version:		1.0.1
- *		@Docs:			www.gov.ky
- *
- */
+
 
 html, body {
 	margin: 0;
@@ -18,11 +10,13 @@ body {
 	padding: 0;
 	margin: 0;
 	background-color: #eee;
+	background-image: url("asia-travel.jpg");
+	background-size: cover;
 	color: #333;
 }
 
 #wrapper {
-	width: 860px;
+	width: 960px;
 	margin: 0 auto;
 	background-color: #fff;
 }
@@ -106,6 +100,19 @@ td.day {
 .payday {
 	background-color: #fefdb6;
 	color: #e38d1f;
+	border-radius: 8px;
+	font-weight: bold;
+}
+
+.nowday {
+	background-color: #ff471a;
+	color: #000000;
+	border-radius: 8px;
+}
+
+.npday {
+	background-color: #1f7a1f;
+	color: #000000;
 	border-radius: 8px;
 	font-weight: bold;
 }
