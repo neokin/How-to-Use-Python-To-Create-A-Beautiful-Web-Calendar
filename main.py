@@ -1,3 +1,8 @@
+"""
+    @Author:		Мазанов Кирилл 
+    @Created:		06.10.2020
+    
+"""
 import generatePayDayWebpage
 from flask import Flask, render_template, redirect, url_for
 app = Flask(__name__)

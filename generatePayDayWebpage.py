@@ -5,13 +5,8 @@ from datetime import datetime
 import moondates
 
 """
-    
-    @Project:		CIG Payday Calendar
-    @Author:		Garth Humphreys
-    @Description:	Yearly CIG Payday Calendar
-    @Created:		01/18/2013
-    @Version:		1.0.1
-    @Docs:			www.gov.ky
+    @Author:		Garth Humphreys & Мазанов Кирилл (created)
+    @Created:		01/18/2013	& 06.10.2020
     
 """
 
