@@ -1,22 +1,15 @@
-# How to Use Python To Create A Beautiful Web Calendar
+RU:
+# Календарь буддийских упосатх с использованием Python и библиотеки calendar, а также фреймворка Flask и библиотеки ephem для астрономических вычислений
 
-> # A Web Calendar built with Python
+EN:
+# How to Use Python To Create A Beautiful Uposatha Web Calendar
 
-At work I usually use [PHP, HTML, CSS and JavaScript](github.com/garthhumphreys) to build any bits of functionality but sometimes it can take quite awhile to get the what I want working.
+> # A Web Calendar built with Python and Flask with ephem calculations
 
-So recently, I’ve found it really nice to use [Python](www.python.org) in my workflow to “glue” together certain aspects of a project.
-
-For example I found it easier to create a employee pay day calendar with Python vs creating it in [PHP](www.php.net). Not only was it fun to build but I’m left with more time to explore extending my initial idea.
-
-## What it should look like
-![Python Web Calendar](https://github.com/garthhumphreys/How-to-Use-Python-To-Create-A-Beautiful-Web-Calendar/blob/master/screenshots/payday-calendar.jpg)
-###### The pay day calendar generated with Python
-
-## Overview
-1.	[Subclass The Python HTMLCalendar Module](https://garthhumphreys.com/2013/01/23/how-to-use-python-to-create-a-beautiful-web-calendar#subclass)
-2.	[Pay days data](https://garthhumphreys.com/2013/01/23/how-to-use-python-to-create-a-beautiful-web-calendar#paydays-data)
-3.	[Generate the webpage](https://garthhumphreys.com/2013/01/23/how-to-use-python-to-create-a-beautiful-web-calendar#generate-webpage)
-4.	[Presentation](https://garthhumphreys.com/2013/01/23/how-to-use-python-to-create-a-beautiful-web-calendar#presentation)
-5.	[Download Files/Code](https://github.com/garthhumphreys/How-to-Use-Python-To-Create-A-Beautiful-Web-Calendar/archive/master.zip)
+## RU: Как это выглядит EN: What it should look like 
+![Python Web Calendar](https://github.com/garthhumphreys/How-to-Use-Python-To-Create-A-Beautiful-Web-Calendar/blob/master/screenshots/uposatha-calendar.jpg)
+###### The uposatha-calendar day generated with Python
 
 :sparkles: :camel: :boom:
+
+Вы можете перейти на сайт uposatha.tk или uposatha.duckdns.org, чтобы увидеть, как это работает
