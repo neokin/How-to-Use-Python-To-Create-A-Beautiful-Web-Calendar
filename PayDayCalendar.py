@@ -69,7 +69,7 @@ class PayDayCalendar(LocaleHTMLCalendar):
         width = max(width, 1)
         a('<table border="0" cellpadding="0" cellspacing="0" id="calendar">')
         a('\n')
-        a('<tr id="calendar-year"><th colspan="%d" class="year">Даты буддийских упосатх в %s году</th></tr>' % (width, theyear))
+        a('<tr id="calendar-year"><th colspan="%d" class="year">Дни проведения упосатхи в %s году</th></tr>' % (width, theyear))
         a('<tr><th colspan="%d" class="year">Даты отображаются в соответствии с часовым поясом UTC+3 (МСК). <font color="#e8e80a">Жёлтым</font> цветом помечены все дни проведения упосатхи в текущем году. </th></tr>' % (width))
         a('<tr><th colspan="%d" class="year"><font color="red">Красным</font> - сегодняшний день. <font color="green">Зелёным</font> - если сегодняшний день совпадает с днём упосатхи и она проводится сегодня.</th></tr>' % (width))
         for i in range(January, January+12, width):
