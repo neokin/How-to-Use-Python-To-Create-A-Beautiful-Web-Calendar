@@ -39,10 +39,16 @@ html, body {
   color: white;
 }
 
-
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 
 body {
- font: .8em/1.5em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+ font: 1.1em/1.5em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
  padding: 0;
  margin: 0;
  background-color: #eee;
@@ -56,7 +62,7 @@ body {
 #center{margin:0 auto;width:100px;}
 
 #wrapper {
- width: 960px;
+ width: 1270px;
  margin: 0 auto;
  background-color: #ffffffd9;
  float: left;
