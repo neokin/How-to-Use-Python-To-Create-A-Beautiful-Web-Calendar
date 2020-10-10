@@ -7,7 +7,9 @@ import generatePayDayWebpage
 app = Flask(__name__)
 app.config['TEMPLATES_AUTO_RELOAD'] = True
 
+#topbar = Navbar('Меню', View('Главная', 'hello'), View('Обеты', 'about'),  View('ЧАВО', 'faq'))
 topbar = Navbar('Меню', View('Главная', 'hello'), View('Обеты', 'about'),  View('ЧАВО', 'faq'), View('Немного юмора и мудрости', 'mem'))
+
 nav = Nav()
 nav.register_element('left', topbar)
 nav.init_app(app)
@@ -36,9 +38,9 @@ def mem():
     return render_template('memes.html')
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=80)
+    #app.run(host='0.0.0.0', port=80)
     #app.run()
-    #app.run(host="0.0.0.0", port=443, ssl_context=('/etc/letsencrypt/live/uposatha.tk/fullchain.pem', '/etc/letsencrypt/live/uposatha.tk/privkey.pem'))
+    app.run(host="0.0.0.0", port=443, ssl_context=('/etc/letsencrypt/live/uposatha.tk/fullchain.pem', '/etc/letsencrypt/live/uposatha.tk/privkey.pem'))
 
 
 
